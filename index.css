@@ -12,6 +12,7 @@ html {
 
 body {
     background-color: #141414;
+    width: 100%;
 }
 
 /* Layar TV 4k - 2560px */
@@ -211,7 +212,7 @@ body {
 
     .footer{
         background-color: black;
-        height: 20rem;
+        height: 22rem;
     }
 
     .contact_header{
