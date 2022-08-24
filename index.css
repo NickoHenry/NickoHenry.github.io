@@ -57,7 +57,7 @@ body {
         width: 24.4rem;
         height: 30rem;
         background-color: black;
-        /* background-image: url('images/profile_mobile.png'); */
+        background-image: url('images/profile_mobile.png');
         background-size: 100%;
         background-repeat: no-repeat;
         display: flex;
@@ -248,7 +248,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* background-image: url('images/profile.png'); */
+        background-image: url('images/profile.png');
         background-size: 120rem;
         height: 20rem;
         justify-content: center;
