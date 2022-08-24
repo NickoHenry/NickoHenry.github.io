@@ -1,5 +1,5 @@
 * {
-    color: grey;
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -55,11 +55,11 @@ body {
     .profile {
         padding-top: 10rem;
         padding-left: 2rem;
-        width: 100%;
+        width: 100vw;
         height: 30rem;
         background-color: black;
         background-image: url('images/profile_mobile.png');
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
@@ -176,7 +176,7 @@ body {
 
     .project_detail{
         text-align: justify;
-        font-weight: bold;
+        /* font-weight: bold; */
         font-size: 0.8rem;
     }
 
@@ -239,6 +239,7 @@ body {
 
     .contact_link{
         margin: auto;
+        font-weight: bold;
     }
 }
 
@@ -278,7 +279,7 @@ body {
 
     .description {
         text-align: justify;
-        font-weight: bold;
+        /* font-weight: bold; */
         font-size: 1rem;
     }
 
@@ -421,7 +422,7 @@ body {
         flex-direction: column;
         justify-content: space-between;
         text-align: justify;
-        font-weight: bolder;
+        /* font-weight: bolder; */
     }
 
     .project_title {
@@ -449,6 +450,7 @@ body {
 
     .tl {
         margin: auto 0;
+        font-size: 0.9rem;
     }
 
     .contact_link {
