@@ -190,7 +190,7 @@ body {
     .tl{
         margin: auto 0;
         font-weight: lighter;
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
 
     .project_spacing{
@@ -241,6 +241,56 @@ body {
     .contact_link{
         margin: auto;
         font-weight: bold;
+    }
+
+    ul.timeline {
+        list-style-type: none;
+        position: relative;
+    }
+    
+    ul.timeline:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        /* left: 29px; */
+        width: 2px;
+        height: 100%;
+    }
+
+    ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+
+    ul.timeline > li:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid grey;
+        left: -9px;
+        width: 20px;
+        height: 20px;
+        z-index: 400;
+    }
+
+    .header_timeline{
+        font-weight: bold;
+        /* text-align: justify; */
+    }
+
+    .desc_timeline{
+        font-weight: normal;
+        font-size: 0.8rem;
+        text-align: justify;
+        margin: 0.75rem 0;
+    }
+
+    .range_timeline{
+        font-size: 0.7rem;
+        color: grey;
     }
 }
 
@@ -466,6 +516,58 @@ body {
     .skill_container{
         text-align: center;
     }
+
+    
+    ul.timeline {
+        list-style-type: none;
+        position: relative;
+    }
+    
+    ul.timeline:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        /* left: 29px; */
+        width: 2px;
+        height: 100%;
+    }
+
+    ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+
+    ul.timeline > li:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid grey;
+        left: -9px;
+        width: 20px;
+        height: 20px;
+        z-index: 400;
+    }
+
+    .header_timeline{
+        font-weight: bold;
+        font-size: 24px;
+        /* text-align: justify; */
+    }
+
+    .desc_timeline{
+        font-weight: normal;
+        font-size: 1rem;
+        text-align: justify;
+        margin: 0.75rem 0;
+    }
+
+    .range_timeline{
+        font-size: 0.7rem;
+        color: grey;
+    }
 }
 
 /* .language_logo{
@@ -541,9 +643,3 @@ body {
     }
 }
 
-.fade {
-    margin: 50px;
-    padding: 50px;
-    background-color: lightgreen;
-    opacity: 1;
-  }
