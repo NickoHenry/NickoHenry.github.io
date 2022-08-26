@@ -1,0 +1,259 @@
+@media screen and (max-width: 850px) {
+
+    .body{
+        margin: 1rem 2rem;
+    }
+
+    .section{
+        padding-bottom: 2rem;
+    }
+
+    .profile {
+        padding-top: 10rem;
+        padding-left: 2rem;
+        width: 100vw;
+        height: 30rem;
+        background-color: black;
+        background-image: url('../images/profile_mobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .hello{
+        margin: 0;
+    }
+
+    .name {
+        text-align: left;
+        font-weight: bold;
+        font-size: 2rem;
+        width: 15rem;
+        margin: 0;
+    }
+
+    .project_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project_title {
+        text-align: center;
+    }
+
+    .name_line {
+        width: 8rem;
+        height: 0.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .css_btn {
+        width: 8rem;
+        border-radius: 10rem;
+    }
+
+    .first_info {
+        margin: 2rem;
+    }
+
+    .header_info {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+
+    .line {
+        width: 15rem;
+        height: 0.25rem;
+        margin: 1rem auto;
+    }
+
+    .description {
+        text-align: justify;
+        /* font-weight: bold; */
+        font-size: 0.8rem;
+    }
+
+    .python_container{
+        width: 20.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .python_logo{
+        width: 8rem;
+    }
+
+    .python_name{
+        text-align: center;
+        margin: 1.5rem 0;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .language_logo {
+        align-items: center;
+        width: 2.5rem;
+    }
+
+    .programming_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .language_container{
+        width: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+        margin: 1rem 0;
+    }
+
+    .language_name{
+        text-align: center;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+
+    .image_project{
+        width: 20rem;
+    }
+
+    .project_title{
+        font-weight: bold;
+        font-size: 1.15rem;
+    }
+
+    .project_line{
+        width: 8rem;
+        height: 0.15rem;
+        margin: 1rem auto;
+    }
+
+    .project_detail{
+        text-align: justify;
+        /* font-weight: bold; */
+        font-size: 0.8rem;
+    }
+
+    .tools_list{
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem 0;
+    }
+
+    .tl{
+        margin: auto 0;
+        font-weight: lighter;
+        font-size: 0.7rem;
+    }
+
+    .project_spacing{
+        height: 4rem;
+    }
+
+    .container_info{
+        margin: 5rem 0;
+    }
+
+    .skill{
+        text-align: center;
+        font-weight: bold;
+        margin: 1.25rem;
+    }
+
+    .information{
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+
+    .footer{
+        background-color: black;
+        height: 22rem;
+    }
+
+    .contact_header{
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .programming_line{
+        margin: auto;
+    }
+
+    .contact_container{
+        margin: 2rem 0;
+    }
+
+    .contact_data{
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem auto;
+        width: 18rem;
+    }
+
+    .contact_link{
+        margin: auto;
+        font-weight: bold;
+    }
+
+    ul.timeline {
+        list-style-type: none;
+        position: relative;
+    }
+    
+    ul.timeline:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        /* left: 29px; */
+        width: 2px;
+        height: 100%;
+    }
+
+    ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+
+    ul.timeline > li:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid grey;
+        left: -9px;
+        width: 20px;
+        height: 20px;
+        z-index: 400;
+    }
+
+    .header_timeline{
+        font-weight: bold;
+        /* text-align: justify; */
+    }
+
+    .desc_timeline{
+        font-weight: normal;
+        font-size: 0.8rem;
+        text-align: justify;
+        margin: 0.75rem 0;
+    }
+
+    .range_timeline{
+        font-size: 0.7rem;
+        color: grey;
+    }
+}

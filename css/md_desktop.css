@@ -1,0 +1,303 @@
+@media screen and (min-width: 851px) {
+    .profile {
+        width: 120rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('/images/profile.png');
+        background-size: 120rem;
+        height: 20rem;
+        justify-content: center;
+        background-repeat: no-repeat;
+    }
+
+    .left{
+        width: 75rem;
+    }
+
+    .right{
+        width: 30rem;
+    }
+
+    .body{
+        display: flex;
+        margin: 3rem;
+        justify-content: space-between;
+    }
+
+    .hello{
+        margin: 0;
+    }
+
+    .image_project{
+        width: 31rem;
+    }
+
+    .css_btn {
+        border-radius: 1rem;
+    }
+
+    .name {
+        font-weight: bold;
+        text-align: center;
+        width: 60rem;
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .name_line {
+        width: 25rem;
+        height: 0.3rem;
+        margin-top: 0rem;
+        background-color: white;
+    }
+
+    .section{
+        margin-bottom: 5rem;
+    }
+
+    .description {
+        text-align: justify;
+        /* font-weight: bold; */
+        font-size: 1rem;
+    }
+
+    .first_info {
+        margin: 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about_me {
+        width: 77.5rem;
+    }
+
+    .project {
+        width: 77.5rem;
+    }
+
+    .container_info {
+        width: 30rem;
+        margin-bottom: 3rem;
+    }
+
+    .header_info {
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .line {
+        width: 10rem;
+        background-color: white;
+        height: 0.3rem;
+    }
+
+    .programming_container {
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem 0;
+    }
+
+    .language_container {
+        /* background-color: red; */
+        position: relative;
+        width: 100rem;
+        height: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .python_container {
+        position: relative;
+        width: 30rem;
+        height: 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .python_logo {
+        width: 6.75rem;
+        align-items: center;
+    }
+
+    .python_name {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .language_logo {
+        display: block;
+        width: 3.5rem;
+        /* transition: transform .25s ease; */
+    }
+
+    .language_name {
+        text-align: center;
+        font-size: small;
+        font-weight: bolder;
+        margin: 0 auto;
+    }
+
+    .skill {
+        font-weight: bold;
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+
+    .information {
+        font-weight: normal;
+        font-size: 0.7rem;
+    }
+
+    .skill_container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact_header {
+        font-weight: bold;
+        font-size: xx-large;
+    }
+
+    .footer {
+        width: 120rem;
+        height: 15rem;
+        background-color: black;
+        padding: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact_container {
+        width: 80rem;
+    }
+
+    .contact_split {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contact_data {
+        display: flex;
+        width: 30rem;
+        margin: 1rem 0;
+    }
+
+    .contact_icon {
+        margin: auto 0;
+        margin-right: 1.5rem;
+    }
+
+    .project_container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project_detail {
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: justify;
+        /* font-weight: bolder; */
+    }
+
+    .project_title {
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .project_line {
+        width: 10rem;
+        height: 0.15rem;
+        margin: 1rem auto;
+        background-color: white;
+    }
+
+    .tools_list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tool_header {
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .tl {
+        margin: auto 0;
+        font-size: 0.9rem;
+    }
+
+    .contact_link {
+        margin: auto 0;
+    }
+
+    .project_spacing {
+        height: 8rem;
+        width: 100%;
+    }
+
+    .skill_container{
+        text-align: center;
+    }
+
+    
+    ul.timeline {
+        list-style-type: none;
+        position: relative;
+    }
+    
+    ul.timeline:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        /* left: 29px; */
+        width: 2px;
+        height: 100%;
+    }
+
+    ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+
+    ul.timeline > li:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid grey;
+        left: -9px;
+        width: 20px;
+        height: 20px;
+        z-index: 400;
+    }
+
+    .header_timeline{
+        font-weight: bold;
+        font-size: 24px;
+        /* text-align: justify; */
+    }
+
+    .desc_timeline{
+        font-weight: normal;
+        font-size: 1rem;
+        text-align: justify;
+        margin: 0.75rem 0;
+    }
+
+    .range_timeline{
+        font-size: 0.8rem;
+        color: grey;
+    }
+}
